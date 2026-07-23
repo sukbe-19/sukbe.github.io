@@ -16,12 +16,17 @@
             transform: translate(-50%, -50%); 
             background-color: #2b2b2b;
             color: white;
-            padding: 20px;
+            padding: 40px;
             border: 2px solid #8bc34a; 
             border-radius: 10px;
-            width: 300px;
-            text-align: center;
+            width: 600px;
+            max-width: 90%;
+            max-height: 80%;
+            overflow-y: auto;
+            text-align: left;
+            line-height: 1.6;
             box-shadow: 0px 0px 15px black; 
+            z-index: 1000;
         }
 
         /* Diseño del botón de cerrar */
@@ -43,13 +48,12 @@
     <!-- El contenedor del mapa -->
     <div id="miMapa"></div>
 
-    <!-- LA CAJA DE INFORMACIÓN -->
+    <!-- LA CAJA DE INFORMACIÓN (El "cartel" oculto) -->
     <div id="cajaInfo">
         <h3 id="tituloInfo">Título aquí</h3>
         <p id="textoInfo">Texto de información aquí.</p>
         <button onclick="cerrarCaja()">Cerrar</button>
     </div>
-    
     <script type="text/javascript">
         fetch('datos.json')
             .then(respuesta => respuesta.json())
@@ -62,7 +66,8 @@
                 };
                 
                 var red = new vis.Network(contenedor, datos, opciones);
-                
+
+                // NUEVA INSTRUCCIÓN: Escuchar el doble clic
                 red.on("doubleClick", function (parametros) {
                                         
                     if (parametros.nodes.length > 0) {
@@ -72,15 +77,15 @@
                                                 
                         if (nodoSeleccionado && nodoSeleccionado.info) {
                                                         
-                            document.getElementById("tituloInfo").innerText = nodoSeleccionado.label;
-                            document.getElementById("textoInfo").innerText = nodoSeleccionado.info;
-                                                        
+                            document.getElementById("tituloInfo").innerHTML = nodoSeleccionado.label;
+                            document.getElementById("textoInfo").innerHTML = nodoSeleccionado.info;
                             document.getElementById("cajaInfo").style.display = "block";
                         }
                     }
                 });
             });
-        
+
+        // Función para ocultar la caja al presionar el botón "Cerrar"
         function cerrarCaja() {
             document.getElementById("cajaInfo").style.display = "none";
         }
