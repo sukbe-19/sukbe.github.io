@@ -45,23 +45,22 @@
         {"id": 8, 
         "label": "Historia", 
         "color": "#5727b8",
-        "info": "Morthos fue abandonado siendo apenas un niño. Su familia, temerosa de lo que una aberración demoníaca podría hacerle a la aldea, lo desechó como a un objeto roto. Sin embargo, su destino cambió al ser hallado por un antiguo ser, un no muerto ajeno a las maquinaciones mortales: un lich con casi cinco siglos de existencia que se hacía llamar Lilioth, la burla de los dioses. Lilioth cuidó de la indefensa criatura y la amó como a un hijo, criándola en las oscuras catacumbas ubicadas entre Valewood y Gorth. Al alcanzar la edad suficiente para ser de utilidad, Morthos hizo un juramento solemne en honor a su padre. Su única misión en la vida sería amasar tanto poder arcano para que Lilioth jamás tuviera que volver a consumir un alma."
+        "info": "Morthos fue abandonado siendo apenas un niño. Su familia, temerosa de lo que una aberración demoníaca podría hacerle a la aldea, lo desechó como a un objeto roto.<br><br>Sin embargo, su destino cambió al ser hallado por un antiguo ser, un no muerto ajeno a las maquinaciones mortales: un lich con casi cinco siglos de existencia que se hacía llamar <b>Lilioth, la burla de los dioses</b>. <br><br>Lilioth cuidó de la indefensa criatura y la amó como a un hijo, criándola en las oscuras catacumbas ubicadas entre <b>Valewood</b> y <b>Gorth</b>. <br><br>Al alcanzar la edad suficiente para ser de utilidad, Morthos hizo un juramento solemne en honor a su padre.<br><br>Su única misión en la vida sería amasar tanto poder arcano para que Lilioth jamás tuviera que volver a consumir un alma."
     },
         {"id": 9, 
-        "label": "Caracter", 
+        "label": "Características", 
         "color": "#225c38",
-        "info": "Caracteres de la campaña"
+        "info": "Morthos es un tiefling de 1,72 cm, de piel rojiza, cabello negro, ojos verdes de 26 años <br><br><img src='Morthos.png' width='100%' style='border-radius: 8px; margin-top: 15px;'>"
     },
         {"id": 10, 
         "label": "Historia-", 
         "color": "#5727b8",
-        "info": "Historia de la campaña"
-
+        "info": "Pontiky Greengik BookWorm era un devoto seguidor de <b>Luminara</b>, reconocido en su comunidad por su notable intelecto y su constante espíritu de servicio. Disfrutaba de una existencia pacífica junto a su esposa, con quien esperaba la llegada de su primer hijo. No obstante, la dicha duró poco.<br><br>Meses después de recibir la noticia más esperada de su vida, la tragedia golpeó la región montañosa de <b>Asmogold</b> bajo la forma de <b>«La Peste de Khrasdel».</b> La infección arrasó la villa; ante ella, ni la ciencia médica ni las artes mágicas resultaron efectivas. Mientras gran parte de los adultos logró resistir, los ancianos, los niños y las embarazadas sucumbieron ante el contagio.<br><br>Desesperado por salvar a los suyos, Pontiky devoró cada tomo de su colección personal y recorrió durante meses las tierras de <b>Thraggdur</b>, <b>Mythralis</b>, <b>Astharos</b> y <b>Elandor</b> en busca de un remedio. En el punto más oscuro de su travesía, cuando regresaba derrotado con los manuscritos que había logrado adquirir, un <b>anciano misterioso encapuchado</b> le abordó en <b>Sinarus</b>. El desconocido le ofreció un trato: la receta de la cura a cambio de un favor. Pontiky aceptó de inmediato. Corrió de vuelta a la villa, elaboró el brebaje y lo repartió entre los sobrevivientes que aún resistían. Sin embargo, la salvación llegó tarde para su propio hogar: su esposa e hijo habían fallecido, y la prisa y el caos le privaron incluso del consuelo de darles sepultura.<br><br>Aplastado por el remordimiento, fue presa fácil de las manipulaciones de la secta <b>Stela Stamen</b>, que prometía conceder sus más ansiados anhelos. Pasó años ejecutando mandatos horribles, hasta el día en que descubrió la terrible verdad: la peste que destruyó su vida no fue una desgracia natural, sino un experimento orquestado por el propio culto.<br><br>Huyendo del monstruo en el que se había convertido, Pontiky emprendió el viaje hacia <b>Luminaris</b> con el único propósito de expiar sus culpas y la remota fe de reencontrarse con su familia en el más allá."
     },
         {"id": 11, 
-        "label": "Caracter-", 
+        "label": "Características", 
         "color": "#225c38",
-        "info": "Caracteres de la campaña"
+        "info": "Pontiky Greengik BookWorm es un Gnomo de las rocas, de 1,20 cm, de piel grisacea con un tono azulado, cabello castaño y ojos cafes con 46 años de edad <br><br><img src='pontiky.jpeg' width='100%' style='border-radius: 8px; margin-top: 15px;'>"
     },
         {"id": 12, 
         "label": "Historia_", 
@@ -69,7 +68,7 @@
         "info": "Historia de la campaña"
     },
         {"id": 13, 
-        "label": "Caracter_", 
+        "label": "Características", 
         "color": "#225c38", 
         "info": "Caracteres de la campaña"
     },
@@ -79,7 +78,7 @@
         "info": "Historia de la campaña"
     },
         {"id": 15, 
-        "label": "Caracter,", 
+        "label": "Características,", 
         "color": "#225c38", 
         "info": "Caracteres de la campaña"
     },
@@ -89,7 +88,7 @@
         "info": "Historia de la campaña"
     },
         {"id": 17, 
-        "label": "Caracter.", 
+        "label": "Características.", 
         "color": "#225c38", 
         "info": "Caracteres de la campaña"
     },
@@ -99,7 +98,7 @@
         "info": "Historia de la campaña"
     },
         {"id": 19, 
-        "label": "Caracter;", 
+        "label": "Características;", 
         "color": "#225c38", 
         "info": "Caracteres de la campaña"
     },
@@ -110,7 +109,7 @@
     },
 
         {"id": 21, 
-        "label": "Caracter:", 
+        "label": "Características:", 
         "color": "#225c38", 
         "info": "Caracteres de la campaña"
     }
