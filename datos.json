@@ -42,20 +42,78 @@
         "color": "#36403f",
         "info": "4d3l1, monje warforged."
     },
-    {"id": 8, "label": "Historia", "color": "#5727b8"},
-    {"id": 9, "label": "Caracter", "color": "#225c38"},
-    {"id": 10, "label": "Historia-", "color": "#5727b8"},
-    {"id": 11, "label": "Caracter-", "color": "#225c38"},
-    {"id": 12, "label": "Historia_", "color": "#5727b8"},
-    {"id": 13, "label": "Caracter_", "color": "#225c38"},
-    {"id": 14, "label": "Historia,", "color": "#5727b8"},
-    {"id": 15, "label": "Caracter,", "color": "#225c38"},
-    {"id": 16, "label": "Historia.", "color": "#5727b8"},
-    {"id": 17, "label": "Caracter.", "color": "#225c38"},
-    {"id": 18, "label": "Historia;", "color": "#5727b8"},
-    {"id": 19, "label": "Caracter;", "color": "#225c38"},
-    {"id": 20, "label": "Historia:", "color": "#5727b8"},
-    {"id": 21, "label": "Caracter:", "color": "#225c38"}
+        {"id": 8, 
+        "label": "Historia", 
+        "color": "#5727b8",
+        "info": "Morthos fue abandonado siendo apenas un niño. Su familia, temerosa de lo que una aberración demoníaca podría hacerle a la aldea, lo desechó como a un objeto roto. Sin embargo, su destino cambió al ser hallado por un antiguo ser, un no muerto ajeno a las maquinaciones mortales: un lich con casi cinco siglos de existencia que se hacía llamar Lilioth, la burla de los dioses. Lilioth cuidó de la indefensa criatura y la amó como a un hijo, criándola en las oscuras catacumbas ubicadas entre Valewood y Gorth. Al alcanzar la edad suficiente para ser de utilidad, Morthos hizo un juramento solemne en honor a su padre. Su única misión en la vida sería amasar tanto poder arcano para que Lilioth jamás tuviera que volver a consumir un alma."
+    },
+        {"id": 9, 
+        "label": "Caracter", 
+        "color": "#225c38",
+        "info": "Caracteres de la campaña"
+    },
+        {"id": 10, 
+        "label": "Historia-", 
+        "color": "#5727b8",
+        "info": "Historia de la campaña"
+
+    },
+        {"id": 11, 
+        "label": "Caracter-", 
+        "color": "#225c38",
+        "info": "Caracteres de la campaña"
+    },
+        {"id": 12, 
+        "label": "Historia_", 
+        "color": "#5727b8", 
+        "info": "Historia de la campaña"
+    },
+        {"id": 13, 
+        "label": "Caracter_", 
+        "color": "#225c38", 
+        "info": "Caracteres de la campaña"
+    },
+        {"id": 14, 
+        "label": "Historia,", 
+        "color": "#5727b8", 
+        "info": "Historia de la campaña"
+    },
+        {"id": 15, 
+        "label": "Caracter,", 
+        "color": "#225c38", 
+        "info": "Caracteres de la campaña"
+    },
+        {"id": 16, 
+        "label": "Historia.", 
+        "color": "#5727b8", 
+        "info": "Historia de la campaña"
+    },
+        {"id": 17, 
+        "label": "Caracter.", 
+        "color": "#225c38", 
+        "info": "Caracteres de la campaña"
+    },
+        {"id": 18, 
+        "label": "Historia;", 
+        "color": "#5727b8", 
+        "info": "Historia de la campaña"
+    },
+        {"id": 19, 
+        "label": "Caracter;", 
+        "color": "#225c38", 
+        "info": "Caracteres de la campaña"
+    },
+        {"id": 20, 
+        "label": "Historia:", 
+        "color": "#5727b8", 
+        "info": "Historia de la campaña"
+    },
+
+        {"id": 21, 
+        "label": "Caracter:", 
+        "color": "#225c38", 
+        "info": "Caracteres de la campaña"
+    }
   ],
   "edges": [
     {"from": 8, "to": 1},
@@ -74,4 +132,3 @@
     {"from": 21, "to": 7}
   ]
 }
-
