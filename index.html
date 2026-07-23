@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Primer Mapa</title>    
+    <title>Historias</title>    
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     
     <style>        
@@ -38,19 +38,18 @@
 </head>
 <body>
 
-    <h2 style="text-align: center;">Explorador de Nodos</h2>
+    <h2 style="text-align: center;">Personajes de Eldevesland</h2>
     
     <!-- El contenedor del mapa -->
     <div id="miMapa"></div>
 
-    <!-- LA CAJA DE INFORMACIÓN (El "cartel" oculto) -->
+    <!-- LA CAJA DE INFORMACIÓN -->
     <div id="cajaInfo">
         <h3 id="tituloInfo">Título aquí</h3>
         <p id="textoInfo">Texto de información aquí.</p>
         <button onclick="cerrarCaja()">Cerrar</button>
     </div>
-
-    <!-- El "Director" (JavaScript) -->
+    
     <script type="text/javascript">
         fetch('datos.json')
             .then(respuesta => respuesta.json())
@@ -63,32 +62,25 @@
                 };
                 
                 var red = new vis.Network(contenedor, datos, opciones);
-
-                // NUEVA INSTRUCCIÓN: Escuchar el doble clic
+                
                 red.on("doubleClick", function (parametros) {
-                    
-                    // Comprobamos si el usuario hizo clic en un nodo (y no en el vacío)
+                                        
                     if (parametros.nodes.length > 0) {
                         var idDelNodo = parametros.nodes[0];
-                        
-                        // Buscamos en nuestros datos el nodo que coincida con ese ID
+                                                
                         var nodoSeleccionado = datos.nodes.find(n => n.id === idDelNodo);
-                        
-                        // Si el nodo existe y tiene el texto de "info"
+                                                
                         if (nodoSeleccionado && nodoSeleccionado.info) {
-                            
-                            // Reemplazamos los textos de la caja con la información del JSON
+                                                        
                             document.getElementById("tituloInfo").innerText = nodoSeleccionado.label;
                             document.getElementById("textoInfo").innerText = nodoSeleccionado.info;
-                            
-                            // Hacemos visible la caja
+                                                        
                             document.getElementById("cajaInfo").style.display = "block";
                         }
                     }
                 });
             });
-
-        // Función para ocultar la caja al presionar el botón "Cerrar"
+        
         function cerrarCaja() {
             document.getElementById("cajaInfo").style.display = "none";
         }
