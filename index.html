@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Primer Mapa</title>    
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    
+    <style>        
+        body { background-color: #1a1a1a; color: white; font-family: Arial;}
+        #miMapa { width: 800px; height: 500px; border: 1px solid #444; margin: auto; }
+        
+        /* DISEÑO DE LA CAJA DE INFORMACIÓN OCULTA */
+        #cajaInfo {
+            display: none; 
+            position: fixed; 
+            top: 50%; left: 50%; 
+            transform: translate(-50%, -50%); 
+            background-color: #2b2b2b;
+            color: white;
+            padding: 20px;
+            border: 2px solid #8bc34a; 
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0px 0px 15px black; 
+        }
+
+        /* Diseño del botón de cerrar */
+        button {
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Explorador de Nodos</h2>
+    
+    <!-- El contenedor del mapa -->
+    <div id="miMapa"></div>
+
+    <!-- LA CAJA DE INFORMACIÓN (El "cartel" oculto) -->
+    <div id="cajaInfo">
+        <h3 id="tituloInfo">Título aquí</h3>
+        <p id="textoInfo">Texto de información aquí.</p>
+        <button onclick="cerrarCaja()">Cerrar</button>
+    </div>
+
+    <!-- El "Director" (JavaScript) -->
+    <script type="text/javascript">
+        fetch('datos.json')
+            .then(respuesta => respuesta.json())
+            .then(datos => {
+                var contenedor = document.getElementById('miMapa');
+                
+                var opciones = {
+                    nodes: { shape: 'dot', size: 15, font: { color: '#ffffff' } },
+                    edges: { color: '#666666' }
+                };
+                
+                var red = new vis.Network(contenedor, datos, opciones);
+
+                // NUEVA INSTRUCCIÓN: Escuchar el doble clic
+                red.on("doubleClick", function (parametros) {
+                    
+                    // Comprobamos si el usuario hizo clic en un nodo (y no en el vacío)
+                    if (parametros.nodes.length > 0) {
+                        var idDelNodo = parametros.nodes[0];
+                        
+                        // Buscamos en nuestros datos el nodo que coincida con ese ID
+                        var nodoSeleccionado = datos.nodes.find(n => n.id === idDelNodo);
+                        
+                        // Si el nodo existe y tiene el texto de "info"
+                        if (nodoSeleccionado && nodoSeleccionado.info) {
+                            
+                            // Reemplazamos los textos de la caja con la información del JSON
+                            document.getElementById("tituloInfo").innerText = nodoSeleccionado.label;
+                            document.getElementById("textoInfo").innerText = nodoSeleccionado.info;
+                            
+                            // Hacemos visible la caja
+                            document.getElementById("cajaInfo").style.display = "block";
+                        }
+                    }
+                });
+            });
+
+        // Función para ocultar la caja al presionar el botón "Cerrar"
+        function cerrarCaja() {
+            document.getElementById("cajaInfo").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

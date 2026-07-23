@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+        "id": 1, 
+        "label": "Morthos", 
+        "color": "#c72424",
+        "info": "Morthos, Paladin Tiefling del camino de la conquista, nivel 11"
+    },
+    {
+        "id": 2, 
+        "label": "Pontiky Greengik BookWorm", 
+        "color": "#3a4985",
+        "info": "Pontiky Greengik BookWorm, Warlock Gnomo con un gran antiguo patron, nivel 8."
+    },
+    {
+        "id": 3, 
+        "label": "Caranthir Hordiane", 
+        "color": "#b35e37",
+        "info": "Caranthir Hordiane, Ranger elfo(semielfo) maestro de bestias, nivel 6."
+    },
+    {
+        "id": 4, 
+        "label": "Holthran Razanur", 
+        "color": "#c2947e",
+        "info": "Holthran Razanur, ranger mediano asesino de mounstruos, nivel 6."
+    },
+    {
+        "id": 5, 
+        "label": "Adalet Ağirliq", 
+        "color": "#631515",
+        "info": "Adalet Ağirliq, paladin goliath del camino de la conquista, nivel 5."
+    },
+    {
+        "id": 6, 
+        "label": "Tonitriun Quantum ", 
+        "color": "#3abab4",
+        "info": "Tonitriun Quantum, elfo hechicero clockwork."
+    },
+    {
+        "id": 7, 
+        "label": "4d3l1", 
+        "color": "#36403f",
+        "info": "4d3l1, monje warforged."
+    },
+    {"id": 8, "label": "Historia", "color": "#5727b8"},
+    {"id": 9, "label": "Caracter", "color": "#225c38"},
+    {"id": 10, "label": "Historia-", "color": "#5727b8"},
+    {"id": 11, "label": "Caracter-", "color": "#225c38"},
+    {"id": 12, "label": "Historia_", "color": "#5727b8"},
+    {"id": 13, "label": "Caracter_", "color": "#225c38"},
+    {"id": 14, "label": "Historia,", "color": "#5727b8"},
+    {"id": 15, "label": "Caracter,", "color": "#225c38"},
+    {"id": 16, "label": "Historia.", "color": "#5727b8"},
+    {"id": 17, "label": "Caracter.", "color": "#225c38"},
+    {"id": 18, "label": "Historia;", "color": "#5727b8"},
+    {"id": 19, "label": "Caracter;", "color": "#225c38"},
+    {"id": 20, "label": "Historia:", "color": "#5727b8"},
+    {"id": 21, "label": "Caracter:", "color": "#225c38"}
+  ],
+  "edges": [
+    {"from": 8, "to": 1},
+    {"from": 9, "to": 1},
+    {"from": 10, "to": 2},
+    {"from": 11, "to": 2},
+    {"from": 12, "to": 3},
+    {"from": 13, "to": 3},
+    {"from": 14, "to": 4},
+    {"from": 15, "to": 4},
+    {"from": 16, "to": 5},
+    {"from": 17, "to": 5},
+    {"from": 18, "to": 6},
+    {"from": 19, "to": 6},
+    {"from": 20, "to": 7},
+    {"from": 21, "to": 7}
+  ]
+}
+
