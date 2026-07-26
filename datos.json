@@ -85,12 +85,12 @@
         {"id": 16, 
         "label": "Historia", 
         "color": "#5727b8", 
-        "info": "Historia de la campaña"
+        "info": "Adalet Ağirliq es un imponente paladín Goliath, devoto de <b>la Orden Carmesí bajo el mandato de su señora, San Bianca Tercera</b> de <b>Harandel.</b> Como un orgulloso veterano de la campaña de los <b>Observadores del Alma</b>, ostentaba el prestigioso cargo de capitán del segundo pelotón.<br><br>Sin embargo, durante una de sus misiones sagradas, la lealtad de Adalet flaqueó. En un acto de egoísmo, desvió su camino para rescatar a un viejo amigo en lugar de marchar junto a sus hombres. Para cuando logró reunirse con su pelotón, la tragedia ya se había consumado: sus guerreros yacían masacrados a manos de los crueles <b>seguidores de la bruja de los sueños.</b><br><br>Consumido por la culpa, fue llevado ante los Siete Sabios, quienes le impusieron un ultimátum: abrazar la muerte para lavar su deshonor ante la Santa, o someterse al doloroso calvario de los <b>Mediadores de Espinas.</b> Buscando la redención a través del castigo, Adalet eligió cargar con el sufrimiento. Pasó años purgando su alma mediante el cumplimiento de sus diez primeras penitencias. Cuando rozaba el final de su tormento, con casi el setenta por ciento de su carga superada, los sabios le revelaron sus cinco últimas misiones, las más formidables y letales de todas.<br><br>La primera de ellas dictaría su nuevo destino: sellar de una vez por todas la Grieta del Norte Perdido."
     },
         {"id": 17, 
         "label": "Características", 
         "color": "#225c38", 
-        "info": "Caracteres de la campaña"
+        "info": "Adalet Ağirliq es un Goliath, de 2,10 cm, de piel azul grisácea, cabello rojo y ojos cafes con 45 años <br><br><img src='Adalet.jpg' width='100%' style='border-radius: 8px; margin-top: 15px;'>"
     },
         {"id": 18, 
         "label": "Historia", 
@@ -131,3 +131,4 @@
     {"from": 21, "to": 7}
   ]
 }
+
