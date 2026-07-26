@@ -21,7 +21,7 @@
     {
         "id": 4, 
         "label": "Holthran Razanur", 
-        "color": "#c2947e",
+        "color": "#000000",
         "info": "Holthran Razanur, ranger mediano asesino de mounstruos, nivel 6."
     },
     {
@@ -74,12 +74,12 @@
     },
         {"id": 14, 
         "label": "Historia", 
-        "color": "#5727b8", 
+        "color": "#000000", 
         "info": "Holthran apenas era un niño mediano, una tenue chispa de vida, cuando el germen de la venganza echó raíces en su alma. Creció en un claro oculto en las profundidades de <b>Valewood</b>, rodeado de familias creyentes hacia la diosa <b>Gaia</b>, los cuales compartían cosechas, risas y cálidas noches al amparo de las estrellas. Vivían en una armonía tan arraigada como las raíces bajo la tierra: ajenos al mundo y sin interferir en el destino de nadie. Así transcurrían sus días, hasta que la tragedia desgarró su calma. <br><br>La desgracia eligió el día de su cumpleaños para manifestarse. Aquella mañana, su madre, de manos desgastadas pero desbordantes de afecto, le regaló una humilde cometa confeccionada con retazos y sueños. Para el pequeño Holthran, aquel juguete era un tesoro digno del firmamento. Entusiasmado, echó a correr hacia los límites del claro, donde las brisas entonaban antiguos murmullos, y elevó su cometa entre risas aún intocadas por la pena. <br><br>De pronto, el mundo retumbó. El suelo se estremeció como si una colosal criatura despertara de un letargo ancestral; el dosel del bosque comenzó a agitarse preso de un pánico invisible. Al alzar la vista, Holthran la divisó: una sombra abrumadora, atroz y hambrienta que descendía en picado sobre su aldea. Corrió desesperado de regreso, con el corazón martilleándole el pecho, pero la fatalidad se interpuso en su camino: una pesada rama desgarrada lo golpeó con violencia, hundiéndolo en la inconsciencia. <br><br>Al volver en sí, el paisaje que conocía había desaparecido. El aire pesaba denso, asfixiado por humo y ceniza. Su hogar ya no existía; en su lugar, brasas crujientes devoraban los vestigios de una vida feliz, mientras el fuego danzaba sobre las ruinas de lo que solían ser risas y abrazos. Holthran gritó hasta desgañitarse. Buscó desesperadamente entre los escombros para salvar a alguien, a quien fuera… pero fue en vano. Los dioses atestiguaron su desesperación, pero el destino ya estaba sellado: se había convertido en el único superviviente, el último de su comunidad. <br><br>Un silencio sepulcral lo envolvió. Deshecho y despojado de toda esperanza, se desplomó sobre la tierra yerma. Fue entonces cuando, en un sarcástico gesto del destino, un objeto descendió mansamente desde el cielo ennegrecido: su cometa. Chamuscada y destrozada, se posó a su lado como el espectro de la inocencia perdida. <br><br>A lo lejos, el retumbo de unos aleteos colosales estremecía la tierra mientras la criatura se alejaba. En ese preciso instante, hincado entre la ceniza y con el rostro surcado por lágrimas secas, una atroz certidumbre lo golpeó: él la había atraído. Su cometa había guiado a la bestia directo hacia el corazón de su hogar. <br><br>Fue en las ruinas de aquel niño roto donde germinó una promesa más sombría que la mismísima noche: no descansaría hasta rastrear a la criatura y arrancarle el corazón con sus propias manos."
     },
         {"id": 15, 
         "label": "Características", 
-        "color": "#225c38", 
+        "color": "#000000", 
         "info": "Holthran es un mediano, de 65 cm, de piel morena, cabello blanco y ojos cafes con 27 años <br><br><img src='Holthran.png' width='100%' style='border-radius: 8px; margin-top: 15px;'>"
     },
         {"id": 16, 
